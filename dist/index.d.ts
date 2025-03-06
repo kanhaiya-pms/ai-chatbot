@@ -1,10 +1,16 @@
-import * as react_jsx_runtime from 'react/jsx-runtime';
+import React from 'react';
 
 declare global {
     interface Window {
         grecaptcha: any;
     }
 }
-declare function MyComponent(): react_jsx_runtime.JSX.Element;
+interface ChatProps {
+    theme?: {
+        bgColor?: string;
+        primaryColor?: string;
+    };
+}
+declare const ChatBot: React.FC<ChatProps>;
 
-export { MyComponent as default };
+export { ChatBot as default };

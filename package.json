@@ -1,13 +1,13 @@
 {
   "name": "ai-chatbotfast",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An AI-powered chatbot component for seamless integration into web applications. Supports real-time interactions, customizable UI, and easy API integration.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kanhaiya-pms/ai-chatbot.git"
+    "url": "https://github.com/kanhaiya-pms/ai-chatbot/tree/master"
   },
   "scripts": {
     "test": "npm run test",

@@ -1,2 +1,2 @@
-import MyComponent from "./MyComponent";
-export default MyComponent;
+import ChatBot from "./MyComponent";
+export default ChatBot;
