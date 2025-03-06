@@ -18,19 +18,15 @@ yarn add ai-chatbotfast
 
 ## Usage
 
-Import and initialize the chatbot:
-
 ```javascript
-const Chatbot = require('ai-chatbotfast');
+"use client";
+import MyComponent from 'ai-chatbotfast';
 
-const bot = new Chatbot({
-  apiKey: 'your-api-key', // Replace with your actual API key
-  model: 'gpt-3.5-turbo' // Choose a model version if applicable
-});
+function App() {
+  return <MyComponent/>;
+}
 
-bot.sendMessage('Hello, how are you?')
-  .then(response => console.log(response))
-  .catch(error => console.error(error));
+export default App;
 ```
 
 ## Features
@@ -66,5 +62,5 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## License
 
-MIT License © 2025 kanhaiya
+MIT License © 2025 Kanhaiya
 
