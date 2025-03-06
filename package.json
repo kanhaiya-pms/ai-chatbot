@@ -1,6 +1,6 @@
 {
-  "name": "ai-chatbot",
-  "version": "0.0.1",
+  "name": "ai-chatbotfast",
+  "version": "0.0.2",
   "description": "An AI-powered chatbot component for seamless integration into web applications. Supports real-time interactions, customizable UI, and easy API integration.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -18,7 +18,7 @@
     "first-npm"
   ],
   "author": "kanhaiya",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-node-resolve": "^16.0.0",
