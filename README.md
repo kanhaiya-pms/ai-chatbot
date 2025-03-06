@@ -20,13 +20,13 @@ yarn add ai-chatbotfast
 
 ```javascript
 "use client";
-import MyComponent from 'ai-chatbotfast';
+import Chatbot from 'ai-chatbotfast';
 
 function App() {
-  return <MyComponent/>;
+  return <Chatbot/>;
 }
 
-export default App;
+export default Chatbot;
 ```
 
 ## Features
