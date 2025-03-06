@@ -1,6 +1,6 @@
 {
   "name": "ai-chatbotfast",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "An AI-powered chatbot component for seamless integration into web applications. Supports real-time interactions, customizable UI, and easy API integration.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
