@@ -23,7 +23,7 @@ yarn add ai-chatbotfast
 import Chatbot from 'ai-chatbotfast';
 
 function App() {
-  return <Chatbot/>;
+  return <Chatbot theme={{bgColor: "red"}}/>;
 }
 
 export default Chatbot;
@@ -42,9 +42,11 @@ You can pass the following options when initializing the chatbot:
 
 | Option  | Type   | Description |
 |---------|--------|-------------|
-| `apiKey` | `string` | Your API key for the AI model |
-| `model`  | `string` | AI model to use (e.g., `gpt-3.5-turbo`) |
+| `apiKey` | `string` | Your API key for the AI model (upcoming) |
+| `model`  | `string` | AI model to use (e.g., `gpt-3.5-turbo`) (upcoming) |
 | `temperature` | `number` | Adjusts randomness in responses (default: `0.7`) |
+| `bgColor` | `string` | set background color |
+| `primaryColor` | `string` | change primary color of ai-chatbot |
 
 Example:
 
